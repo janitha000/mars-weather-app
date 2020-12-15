@@ -1,7 +1,7 @@
 import React, { useRef, useState } from 'react'
 import PrevioseDay from './PrevioseDay'
 
-const PrevWeather = () => {
+const PrevWeather = ({ prevData }) => {
     const [showPrevWeather, setShowPrevWeather] = useState(false)
 
 

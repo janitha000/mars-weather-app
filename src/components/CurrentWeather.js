@@ -7,7 +7,7 @@ import Unit from './Unit'
 import './CurrentWeather.css'
 
 
-const CurrentWeather = () => {
+const CurrentWeather = ({ currentData }) => {
     return (
         <div className="current-weather">
             <h1 className="main-title">Latest weather at Elysium Planitia</h1>
